@@ -3,6 +3,7 @@ import Layout from "./components/layout/Layout"
 import Home from "./pages/Home"
 import Roulette from "./pages/Roulette"
 import Todo from "./pages/Todo"
+import NotFound from "./pages/NotFound"
 import './App.css'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path="roulette" element={<Roulette/>}/>
         <Route path="todo" element={<Todo/>}/>
-        <Route path="*" element={<div>404 Not Found</div>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Route>
     </Routes>
   );
