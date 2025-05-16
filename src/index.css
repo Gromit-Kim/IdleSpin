@@ -1,0 +1,9 @@
+.divider{
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-bottom: 16px 0;
+}
+
+main{
+    padding-top: 60px;
+}
